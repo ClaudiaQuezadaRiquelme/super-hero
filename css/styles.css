@@ -1,0 +1,34 @@
+header nav a.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+}
+main {
+    text-align: center;
+}
+#infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+#heroSearch {
+    max-width: 540px;
+}
+#heroInfoTitle {
+    display: none;
+}
+.card-body {
+    text-align: left;
+}
+#heroStatistics {
+    text-align: center;
+    height: 270px;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    #heroStatistics {
+        height: 170px;
+        max-width: 570px;
+    }
+}
